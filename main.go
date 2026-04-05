@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/dustin/go-humanize"
-	"github.com/pacedotdev/oto/parser"
-	"github.com/pacedotdev/oto/render"
+	"github.com/nathan-isaac/oto/parser"
+	"github.com/nathan-isaac/oto/render"
 	"github.com/pkg/errors"
 )
 
@@ -61,7 +61,7 @@ flags:`)
 	}
 	p.Verbose = *v
 	if p.Verbose {
-		fmt.Println("oto - github.com/pacedotdev/oto", Version)
+		fmt.Println("oto - github.com/nathan-isaac/oto", Version)
 	}
 	if *pkg != "" {
 		p.PackageName = *pkg

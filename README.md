@@ -17,7 +17,7 @@ Go driven rpc code generation tool for right now.
 
 These templates are already being used in production.
 
-- There are some [official Oto templates](https://github.com/pacedotdev/oto/tree/master/otohttp/templates)
+- There are some [official Oto templates](https://github.com/nathan-isaac/oto/tree/master/otohttp/templates)
 - The [Pace CLI tool](https://github.com/pacedotdev/pace/blob/master/oto/cli.go.plush) is generated from an open-source CLI template
 
 ## Learn
@@ -33,7 +33,7 @@ These templates are already being used in production.
 Install the project:
 
 ```
-go install github.com/pacedotdev/oto@latest
+go install github.com/nathan-isaac/oto@latest
 ```
 
 Create a project folder, and write your service definition as a Go interface:

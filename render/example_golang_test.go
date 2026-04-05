@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/matryer/is"
-	"github.com/pacedotdev/oto/parser"
+	"github.com/nathan-isaac/oto/parser"
 )
 
 func TestExmapleGolang(t *testing.T) {
